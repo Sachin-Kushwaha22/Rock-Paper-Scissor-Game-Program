@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    background-color: rgb(213, 245, 151);
+}
+
+h1{
+    margin: 40px;
+    font-size: 4em;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#figure-selection{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 5rem;
+    padding: 10px;
+}
+
+.figures{
+    margin: 0;
+    width: 120px;
+    height: 120px;
+    border: solid;
+    border-radius: 50%;
+    background-color: hsl(180, 100%, 25%);
+}
+
+.figures:hover{
+    background-color: hsl(170, 100%, 35%);
+}
+
+.chooseCardBox{
+    margin-top: 40px;
+}
+
+.chooseCard{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+}
+
+.figureShow{
+    margin: 10px;
+    margin-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-align: left;
+    height: 5vh;
+    width: 150px;
+    margin: 0px;
+}
+.figure-Choosed{
+    margin: 10px;
+    margin-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 1.5em;
+    text-align: right;
+    width: 300px;
+    margin: 0px;
+}
+
+.result{
+    margin: 20px;
+    font-size: 4em;
+    font-family: monospace;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+.scoreCard{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    width: 500px;  
+    text-align: right;
+}
+
+.score{
+    margin: 10px;
+    margin-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#playerScore{
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+#opponentScore{
+    font-weight: bolder;
+    font-size: 2em;
+}
